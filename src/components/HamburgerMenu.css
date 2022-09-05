@@ -1,0 +1,34 @@
+.hamburgermenu{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+}
+.hamburgermenu__right{
+    background-color: #22252F;
+    opacity: 0.7;
+    flex: 0.5;
+}
+.hamburgermenu__left{
+    background-color: #22252F;
+    flex: 0.5;
+    padding-top: 2rem;
+}
+.hamburgermenu__left__top{
+    color: #fff;
+    font-size: 30px;
+    direction: rtl;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    margin: 0 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.297);
+    cursor: pointer;
+}
+.hamburgermenu__left__bottom ul {
+    padding: 2rem;
+}
+.hamburgermenu__left__bottom ul li{
+    margin-bottom: 1.5rem;
+    opacity: 0.6;
+}

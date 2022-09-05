@@ -1,0 +1,108 @@
+.footer{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+.footer__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.134);
+}
+.footer__top__left{
+    flex: 0.3;
+}
+.footer__top__left img{
+    width: 60%;
+}
+.footer__top__left p{
+    margin-top: 1rem;
+    padding-left: 1rem;
+    width: 80%;
+    line-height: 25px;
+    opacity: 0.7;
+}
+.footer__top__right{
+    flex: 0.7;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__top__right h3{
+    margin-bottom: 1.5rem;
+}
+.footer__top__right li{
+    margin-bottom: 1rem;
+    font-size: 14px;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.footer__top__right li:hover{
+    opacity: 1;
+}
+.footer__bottom__left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__bottom__left p + p{
+    margin-left: 10px;
+}
+.footer__bottom__left p{
+    opacity: 0.5;
+
+}
+.footer__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.footer__bottom__right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0.2;
+}
+.footer__bottom__right li{
+    flex: 0.1;
+    opacity: 0.5;
+    cursor: pointer;
+}
+@media screen and (max-width:700px){
+    .footer{
+        width: 90%;
+    }
+    .footer__top{
+        flex-direction: column;
+    }
+    .footer__top__left{
+    width: 100%;
+    margin-bottom: 2rem;
+    }
+    .footer__top__left img{
+        width: 150px;
+    }
+    .footer__top__right{
+        width: 100%;
+    }
+    .footer__bottom{
+        flex-direction: column;
+    }
+    .footer__bottom__right{
+        margin-top: 1rem;
+    }
+    .footer__bottom__right li{
+        flex: 0.2;
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width:500px){
+    .footer__top__right{
+        flex-direction: column;
+    }
+    .footer__top__right ul{
+        margin-bottom: 1rem;
+    }
+}

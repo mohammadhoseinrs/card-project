@@ -1,0 +1,45 @@
+.section5{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 7rem;
+    flex-direction: row-reverse;
+}
+.section5__left {
+    flex: 0.45;
+}
+.section5__right {
+    flex: 0.5;
+}
+.section5__right__title{
+    font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 160%;
+/* or 77px */
+
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+
+}
+.section5__right__text{
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 170%;
+/* or 31px */
+
+letter-spacing: 0.01em;
+
+color: rgba(255, 255, 255, 0.7);
+margin-bottom: 3rem;
+}
+.section5__right__btn{
+
+background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+border-radius: 10px;
+padding: 1rem 2rem;
+}
